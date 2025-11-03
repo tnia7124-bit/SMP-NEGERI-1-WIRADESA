@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -63,6 +63,9 @@
                     <div class="ml-10 flex items-baseline space-x-4">
                         <a href="#beranda" class="text-white hover:bg-secondary-blue hover:text-primary-blue px-3 py-2 rounded-md text-sm font-medium transition duration-200">Beranda</a>
                         <a href="#profil" class="text-white hover:bg-secondary-blue hover:text-primary-blue px-3 py-2 rounded-md text-sm font-medium transition duration-200">Profil Sekolah</a>
+                        <a href="#prestasi" class="text-white hover:bg-secondary-blue hover:text-primary-blue px-3 py-2 rounded-md text-sm font-medium transition duration-200">Prestasi</a>
+                        <!-- Tautan Baru: Guru dan Karyawan -->
+                        <a href="#guru" class="text-white hover:bg-secondary-blue hover:text-primary-blue px-3 py-2 rounded-md text-sm font-medium transition duration-200">Guru & Staf</a>
                         <a href="#akademik" class="text-white hover:bg-secondary-blue hover:text-primary-blue px-3 py-2 rounded-md text-sm font-medium transition duration-200">Akademik</a>
                         <a href="#ekstrakurikuler" class="text-white hover:bg-secondary-blue hover:text-primary-blue px-3 py-2 rounded-md text-sm font-medium transition duration-200">Ekstrakurikuler</a>
                         <a href="#galeri" class="text-white hover:bg-secondary-blue hover:text-primary-blue px-3 py-2 rounded-md text-sm font-medium transition duration-200">Galeri</a>
@@ -133,8 +136,123 @@
             </div>
         </section>
 
-        <!-- 3. Akademik (4 Program) - Disesuaikan untuk SMP -->
-        <section id="akademik" class="py-16 md:py-24">
+        <!-- 3. Prestasi Siswa -->
+        <section id="prestasi" class="py-16 md:py-24 bg-white">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-bold text-center text-primary-blue mb-12 border-b-4 border-secondary-blue pb-2 max-w-sm mx-auto">
+                    Prestasi Siswa
+                </h2>
+
+                <div class="bg-accent-white p-8 rounded-xl shadow-xl">
+                    <p class="text-lg text-gray-700 mb-6 text-center">
+                        Kebanggaan kami terletak pada pencapaian luar biasa siswa di berbagai bidang.
+                    </p>
+
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <!-- Blok Prestasi Akademik -->
+                        <div>
+                            <h3 class="text-xl font-bold text-primary-blue mb-3 border-b border-secondary-blue pb-2">Bidang Akademik</h3>
+                            <ul class="space-y-3 text-gray-600 list-none">
+                                <li class="p-3 bg-white rounded-lg shadow-sm">
+                                    <span class="font-semibold text-primary-blue">Juara 1 Olimpiade Sains Nasional (OSN) Tingkat Kabupaten</span> <br> Mata Pelajaran: Matematika, Tahun 2024
+                                </li>
+                                <li class="p-3 bg-white rounded-lg shadow-sm">
+                                    <span class="font-semibold text-primary-blue">Medali Emas Lomba Karya Tulis Ilmiah (LKTI)</span> <br> Kategori: Teknologi Lingkungan, Tingkat Provinsi, 2023
+                                </li>
+                                <li class="p-3 bg-white rounded-lg shadow-sm">
+                                    <span class="font-semibold text-primary-blue">Delegasi Terbaik World Scholars Cup</span> <br> Tingkat Regional Jawa Tengah, 2022
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Blok Prestasi Non-Akademik -->
+                        <div>
+                            <h3 class="text-xl font-bold text-primary-blue mb-3 border-b border-secondary-blue pb-2">Bidang Non-Akademik</h3>
+                            <ul class="space-y-3 text-gray-600 list-none">
+                                <li class="p-3 bg-white rounded-lg shadow-sm">
+                                    <span class="font-semibold text-primary-blue">Juara Umum Lomba Baris Berbaris (LBB)</span> <br> Tingkat Karesidenan Pekalongan, 2024
+                                </li>
+                                <li class="p-3 bg-white rounded-lg shadow-sm">
+                                    <span class="font-semibold text-primary-blue">Juara 3 Turnamen Futsal Junior</span> <br> Piala Walikota, Tahun 2023
+                                </li>
+                                <li class="p-3 bg-white rounded-lg shadow-sm">
+                                    <span class="font-semibold text-primary-blue">Penari Terbaik Festival Seni Daerah</span> <br> Kategori Tari Tradisional, Tahun 2022
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 4. Guru dan Karyawan (BAGIAN BARU) -->
+        <section id="guru" class="py-16 md:py-24 bg-accent-white">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-bold text-center text-primary-blue mb-12 border-b-4 border-secondary-blue pb-2 max-w-sm mx-auto">
+                    Guru dan Karyawan
+                </h2>
+
+                <!-- Kontainer Daftar Guru -->
+                <div class="bg-white p-8 rounded-xl shadow-xl">
+                    <h3 class="text-2xl font-bold text-primary-blue mb-6 border-b pb-2">Tenaga Pendidik (Guru)</h3>
+                    <div class="grid md:grid-cols-3 sm:grid-cols-2 gap-x-8 gap-y-4 text-gray-700">
+                        <!-- Guru item 1 -->
+                        <div class="border-l-4 border-secondary-blue pl-4 py-1">
+                            <p class="font-semibold">Bapak Dr. Heru Santoso, M.Pd.</p>
+                            <p class="text-sm">Kepala Sekolah / Bahasa Indonesia</p>
+                        </div>
+                        <!-- Guru item 2 -->
+                        <div class="border-l-4 border-secondary-blue pl-4 py-1">
+                            <p class="font-semibold">Ibu Rina Anggraini, S.Si.</p>
+                            <p class="text-sm">Matematika</p>
+                        </div>
+                        <!-- Guru item 3 -->
+                        <div class="border-l-4 border-secondary-blue pl-4 py-1">
+                            <p class="font-semibold">Bapak Dodi Firmansyah, S.Pd.</p>
+                            <p class="text-sm">Ilmu Pengetahuan Alam (IPA)</p>
+                        </div>
+                        <!-- Guru item 4 -->
+                        <div class="border-l-4 border-secondary-blue pl-4 py-1">
+                            <p class="font-semibold">Ibu Kartika Dewi, S.E.</p>
+                            <p class="text-sm">Ilmu Pengetahuan Sosial (IPS)</p>
+                        </div>
+                        <!-- Guru item 5 -->
+                        <div class="border-l-4 border-secondary-blue pl-4 py-1">
+                            <p class="font-semibold">Bapak Budi Hartono, S.Kom.</p>
+                            <p class="text-sm">Teknologi Informasi dan Komunikasi (TIK)</p>
+                        </div>
+                        <!-- Guru item 6 -->
+                        <div class="border-l-4 border-secondary-blue pl-4 py-1">
+                            <p class="font-semibold">Ibu Siti Zulaikha, S.Ag.</p>
+                            <p class="text-sm">Pendidikan Agama Islam</p>
+                        </div>
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-primary-blue mb-6 mt-10 border-b pb-2">Tenaga Kependidikan (Karyawan)</h3>
+                    <div class="grid md:grid-cols-3 sm:grid-cols-2 gap-x-8 gap-y-4 text-gray-700">
+                        <!-- Karyawan item 1 -->
+                        <div class="border-l-4 border-secondary-blue pl-4 py-1">
+                            <p class="font-semibold">Bapak Agus Setiawan</p>
+                            <p class="text-sm">Staf Tata Usaha (TU)</p>
+                        </div>
+                        <!-- Karyawan item 2 -->
+                        <div class="border-l-4 border-secondary-blue pl-4 py-1">
+                            <p class="font-semibold">Ibu Fatimah Az-Zahra</p>
+                            <p class="text-sm">Pustakawan</p>
+                        </div>
+                        <!-- Karyawan item 3 -->
+                        <div class="border-l-4 border-secondary-blue pl-4 py-1">
+                            <p class="font-semibold">Bapak Sumardi</p>
+                            <p class="text-sm">Petugas Kebersihan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Akademik (4 Program) - Disesuaikan untuk SMP -->
+        <!-- Latar belakang diubah dari 'bg-accent-white' menjadi 'bg-white' untuk menjaga kontras -->
+        <section id="akademik" class="py-16 md:py-24 bg-white">
             <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl sm:text-4xl font-bold text-center text-primary-blue mb-12 border-b-4 border-secondary-blue pb-2 max-w-xs mx-auto">
                     Akademik
@@ -165,7 +283,7 @@
             </div>
         </section>
 
-        <!-- 4. Ekstrakurikuler (6 Kegiatan) -->
+        <!-- 6. Ekstrakurikuler (6 Kegiatan) -->
         <section id="ekstrakurikuler" class="py-16 md:py-24 bg-secondary-blue">
             <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl sm:text-4xl font-bold text-center text-primary-blue mb-12 border-b-4 border-primary-blue pb-2 max-w-sm mx-auto">
@@ -207,7 +325,7 @@
             </div>
         </section>
 
-        <!-- 5. Galeri Foto dan Video -->
+        <!-- 7. Galeri Foto dan Video -->
         <section id="galeri" class="py-16 md:py-24 bg-white">
             <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl sm:text-4xl font-bold text-center text-primary-blue mb-12 border-b-4 border-secondary-blue pb-2 max-w-xs mx-auto">
@@ -268,7 +386,7 @@
             </div>
         </section>
 
-        <!-- 6. Kontak Sekolah -->
+        <!-- 8. Kontak Sekolah -->
         <section id="kontak" class="py-16 md:py-24 bg-primary-blue">
             <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
                 <h2 class="text-3xl sm:text-4xl font-bold text-center mb-12 border-b-4 border-secondary-blue pb-2 max-w-xs mx-auto">
